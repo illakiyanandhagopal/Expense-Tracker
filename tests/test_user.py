@@ -37,3 +37,4 @@ async def test_register_duplicate_user():
         response = await client.post("/users/register", json=user_data)
 
     assert response.status_code == 400
+

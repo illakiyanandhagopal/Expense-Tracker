@@ -46,7 +46,7 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -t ghcr.io/${{ github.repository }}/expense-tracker:latest .
+         docker build -t ghcr.io/illakiyanandhagopal/expense-tracker:latest .
 
       - name: Push Docker Image
         run: |
